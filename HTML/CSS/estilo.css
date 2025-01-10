@@ -1,0 +1,185 @@
+/* Limpar formatações padrões
+
+Vários recursos podem ajudar com isso. Por enquanto, removeremos apenas as formatações padrões. */
+
+
+/* Limpeza de formatação */
+
+* {
+
+    margin: 0; /* Zeramos o padding e a margem */
+    padding: 0;
+
+}
+
+body {
+
+    font-size: 1em; /*1em equivale a 16 pixels */
+    font-family: 'Trebuchet MS', Helvetica, sans-serif ;
+    background-color: #e6e6e6;
+
+/* Fim da limpeza de formatação */
+
+ 
+}
+
+ /* Formatação de menu*/   
+
+#area-cabecalho { 
+
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+
+}
+
+#area-logo, #area-menu {
+
+    padding: 10px;
+
+}
+
+
+
+h1 {
+
+    color:#4e4e4e;
+    font-size: 2.5em;
+
+}
+
+.branco { /* Criado para mudar a cor dos textos para branco */
+
+    color:white;
+
+}
+
+/* Fim da formatação de menu */
+
+/* Formatação layout */
+
+#area-principal {
+
+    width: 920px;
+    margin: 0 auto; /* Margem automática */
+    padding: 15px;
+
+}
+
+#area-postagens{
+
+    width: 660px;
+    float: left;
+
+}
+
+#area-lateral{
+
+    width: 240px; /*Deixamos 20 pixels sobrando (660 + 240 = 900) em relação aos 920 que é o tamanho de nossa area principal para que houvesse algum espaçamento entre as divs no layout do site */
+    float: right;
+   
+
+}
+
+.postagem{
+
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+
+
+#rodape{
+
+    
+    background: #CCC;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.8em;
+
+}
+
+h2{
+
+    color: #f8b600;
+    
+}
+
+h3{
+
+    color: white;
+    background: #f8b600;
+    padding: 5px;
+}
+
+.data-postagem{
+
+    font-size:0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block; /* Fizemos para que o display ocupasse um tamanho maior e ficasse mais bem separado após a formatação */
+
+}
+
+.conteudo-lateral{
+
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.postagem-lateral{ 
+
+    font-size: 0.8em;
+    padding: 5px;
+
+}
+
+/* Fim da formatação de layouts */
+
+/* Formatação de links */
+
+
+
+#area-cabecalho a:link, #area-cabecalho a:visited { /* Aqui, estamos formatando apenas na area de cabeçalho a cor do link quando ele está 'normal' e quando foi visitado */
+
+    color:#FFF;
+    padding: 8px 12px;
+
+}
+
+#area-cabecalho a:hover{
+
+    color: #f7b600;
+    background-color: #FFF;
+    text-decoration: none;
+
+}
+
+a:link, a:visited { 
+
+    color:#f7b600;
+   
+
+}
+
+a:hover{
+
+    color: #f7b600;
+    text-decoration: underline;
+
+}
+
+a{
+    color: #f8b600;
+    text-decoration: none;
+
+}
+
+
+
